@@ -7,7 +7,7 @@
  └————————————————————┘
 */
 html {
-    --cyan-gradient: linear-gradient(hsl(155,100%,58%), hsl(155,100%,53%));
+    --cyan-gradient: linear-gradient(hsl(100,100%,58%), hsl(100,100%,53%));
     --seafoam-gradient: linear-gradient(hsl(183,100%,58%), hsl(183,100%,53%));
     --red-meh-gradient: linear-gradient(rgb(196, 46, 59), rgb(138, 34, 43));
     --woot-green-gradient: linear-gradient(rgb(37, 185, 97), rgb(24, 115, 61));
@@ -87,13 +87,13 @@ html {
 }
 #user-rollover .action {
     background: hsla(138, 40%, 10%, 0.7);
-    box-shadow: inset 0 0 0 1px hsla(100,40%,20%,.8) !important;
+    box-shadow: inset 0 0 0 1px hsla(175,40%,20%,.8) !important;
 }
 #user-rollover .action:hover {
     background: hsla(133, 40%, 30%, 0.8) !important;
     box-shadow:
-        inset 0 0 0 2px hsla(100,40%,40%,.5),
-        inset 0 0 0 1px hsla(100,40%,20%,.8) !important;
+        inset 0 0 0 2px hsla(175,40%,40%,.5),
+        inset 0 0 0 1px hsla(175,40%,20%,.8) !important;
 }
 /*
  ┌————————————————————┐
@@ -126,7 +126,7 @@ html {
     box-shadow: inset 1px 1px 0 hsla(0,0%,100%,.1);
 }
 #chat .cm .timestamp {
-    color: hsl(120,5%,40%);
+    color: hsl(170,5%,40%);
 }
 #chat .cm.welcome {
     color: #7A5;
@@ -138,10 +138,10 @@ html {
 }
 #chat .moderation .un,
 #chat .moderation .timestamp {
-    color: hsl(120, 40%, 60%) !important;
+    color: hsl(170, 40%, 60%) !important;
 }
 #chat .moderation .text {
-    color: hsl(120, 40%, 50%) !important;
+    color: hsl(170, 40%, 50%) !important;
 }
 #chat .system {
     background: hsla(210,20%,20%,.8) !important;
@@ -149,28 +149,28 @@ html {
 }
 /* Delete button */
 #chat .delete-button {
-    background: linear-gradient(hsl(100,30%,20%), hsl(100,30%,15%));
-    box-shadow: inset 0 0 0 1px hsl(100,30%,40%);
+    background: linear-gradient(hsl(175,30%,20%), hsl(175,30%,15%));
+    box-shadow: inset 0 0 0 1px hsl(175,30%,40%);
     border-radius: 4px;
     color: hsl(100,30%,40%);
     transition: all .25s ease-in-out;
 }
 #chat .delete-button:hover {
-    background: linear-gradient(hsl(100,30%,50%), hsl(100,30%,40%));
-    box-shadow: inset 0 0 0 1px hsl(100,30%,70%);
+    background: linear-gradient(hsl(175,30%,50%), hsl(175,30%,40%));
+    box-shadow: inset 0 0 0 1px hsl(175,30%,70%);
     color: hsl(100,30%,70%);
 }
 /* Chat text box */
 #chat-input {
-    background: linear-gradient(hsla(120,30%,10%,.8), hsla(120,30%,15%,.8));
-    box-shadow: inset 0 0 0 1px hsla(120,30%,20%,.8), transparent;
+    background: linear-gradient(hsla(195,30%,10%,.8), hsla(195,30%,15%,.8));
+    box-shadow: inset 0 0 0 1px hsla(195,30%,20%,.8), transparent;
     transition: all .25s ease-in-out;
 }
 #chat-input.focused {
-    background: linear-gradient(hsla(120,50%,20%,.8), hsla(120,50%,25%,.8)) !important;
+    background: linear-gradient(hsla(195,50%,20%,.8), hsla(195,50%,25%,.8)) !important;
     box-shadow:
-        inset 0 0 0 1px hsla(120,50%,40%,.8),
-        0 0 5px 1px hsla(120,50%,40%,.8) !important;
+        inset 0 0 0 1px hsla(195,50%,40%,.8),
+        0 0 5px 1px hsla(195,50%,40%,.8) !important;
 }
 #chat-input-field::-webkit-input-placeholder {
     color: #252;
@@ -888,7 +888,7 @@ i.icon.icon-time {
     width: 7px; height: 7px;
 }
 ::-webkit-scrollbar-thumb {
-    background: hsl(100,40%,20%) !important;
+    background: hsl(175,40%,20%) !important;
 }
 .jspDrag {
     background: rgba(40, 120, 60, 0.65) !important;
