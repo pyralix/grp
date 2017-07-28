@@ -23,19 +23,10 @@ html {
     display: block;
     width: 75px; height: 30px;
 
-    background: url('https://cdn.rawgit.com/pyralix/grp/6025196f/Images/WFTB-Logo.png') center center / 75px no-repeat;
+    background: url('https://cdn.rawgit.com/pyralix/grp/3b58d5f2/Images/WFTB-Logo.png') center center / 75px no-repeat;
 }
 #room-name, #room-host {
     left: 89px !important;
-}
-#playback .background img {
-    display: none;
-}
-#playback .background {
-    background: url('https://cdn.rawgit.com/pyralix/grp/75c9ac02/Images/WFTB-Playback.png') !important;
-    width: 521px; height: 292px;
-    left: -19px;
-    background-size: cover !important;
 }
 .room-background {
     background-image: url('https://cdn.rawgit.com/pyralix/grp/f6ca011a/Background.png') !important;
