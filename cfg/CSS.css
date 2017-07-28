@@ -19,6 +19,8 @@ html {
     display: none;
 }
 
+    background-image: url(https://cdn.rawgit.com/pyralix/grp/f6ca011a/Background.png) !important;
+}
 #room-name, #room-host, #now-playing-dj, #now-playing-media {
     color: #fff !important;
     font-weight: bold;
