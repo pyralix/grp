@@ -7,8 +7,8 @@
  └————————————————————┘
 */
 html {
-    --yellow-green-gradient: linear-gradient(hsl(125,50%,35%), hsl(125,50%,30%));
-    --yellow-greener-gradient: linear-gradient(hsl(125,50%,50%), hsl(125,50%,40%));
+    --seafoam-gradient: linear-gradient(hsl(155,100%,58%), hsl(155,100%,53%));
+    --cyan-gradient: linear-gradient(hsl(183,100%,58%), hsl(183,100%,53%));
     --red-meh-gradient: linear-gradient(rgb(196, 46, 59), rgb(138, 34, 43));
     --woot-green-gradient: linear-gradient(rgb(37, 185, 97), rgb(24, 115, 61));
 }
@@ -107,7 +107,7 @@ html {
  └————————————————————┘
 */
 #header-panel-bar .selected {
-    background: var(--yellow-green-gradient) !important;
+    background: var(--seafoam-gradient) !important;
 }
 #header-panel-bar .selected i {
     filter: brightness(1.5) saturate(0);
@@ -235,7 +235,7 @@ i.icon.icon-time {
     box-shadow: 0 0 20px #000;
 }
 #footer #playlist-button {
-    background: var(--yellow-greener-gradient);
+    background: var(--cyan-gradient);
 }
 #footer .chevron::before,
 #footer .chevron::after {
@@ -256,7 +256,7 @@ i.icon.icon-time {
     box-shadow: inset 1px 0 0 0 #030;
 }
 #footer-user .buttons .button:hover {
-    background: var(--yellow-green-gradient) !important
+    background: var(--seafoam-gradient) !important
 }
 #footer-user .buttons .button:hover,
 #footer-user .buttons .button.inventory:hover {
@@ -265,7 +265,7 @@ i.icon.icon-time {
     box-shadow: inset 1px 0 0 0 #EEE;
 }
 #footer .back {
-    background: var(--yellow-green-gradient);
+    background: var(--seafoam-gradient);
 }
 .icon-next-track {
     background-position: -70px -175px !important;
@@ -468,10 +468,10 @@ i.icon.icon-time {
     color: #888;
 }
 #room-settings-menu .item.selected {
-    background: var(--yellow-green-gradient);
+    background: var(--seafoam-gradient);
 }
 #room-settings-menu .item.selected:hover {
-    background: var(--yellow-greener-gradient);
+    background: var(--cyan-gradient);
 }
 #room-settings .general-settings .option button.off {
     background: var(--woot-green-gradient);
@@ -494,18 +494,18 @@ i.icon.icon-time {
     background: rgba(0,0,0,.7);
 }
 #user-menu .item:hover {
-    background: var(--yellow-green-gradient);
+    background: var(--seafoam-gradient);
 }
 #user-menu .item:hover i {
     filter: brightness(3) saturate(0);
 }
 #user-menu .item.selected,
 .user-content.communities button {
-    background: var(--yellow-green-gradient);
+    background: var(--seafoam-gradient);
 }
 #user-menu .item.selected:hover,
 .user-content.communities button:hover {
-    background: var(--yellow-greener-gradient);
+    background: var(--cyan-gradient);
 }
 #user-menu .avatar,
 #user-inventory .avatars .grid .cell.selected .top {
@@ -522,15 +522,15 @@ i.icon.icon-time {
     background: rgba(0,0,0,.7);
 }
 .tab-menu button {
-    background: var(--yellow-green-gradient);
+    background: var(--seafoam-gradient);
     color: #CCC;
 }
 .tab-menu button:hover {
-    background: var(--yellow-greener-gradient);
+    background: var(--cyan-gradient);
     color: #EEE;
 }
 .tab-menu button.selected {
-    background: var(--yellow-greener-gradient);
+    background: var(--cyan-gradient);
 }
 .user-content .header {
     -webkit-box-shadow: inset 0 1px 0 0 #444;
@@ -576,14 +576,14 @@ i.icon.icon-time {
     color: #EEE;
 }
 .user-content.profile .notifications .row {
-    background: var(--yellow-green-gradient);
+    background: var(--seafoam-gradient);
 }
 .user-content.profile .notifications .row .timestamp,
 .user-content.profile .notifications .row i {
     filter: brightness(2.5) saturate(0);
 }
 .user-content.profile .notifications .row:hover {
-    background: var(--yellow-greener-gradient);
+    background: var(--cyan-gradient);
 }
 /* Inventory */
 .user-content .grid .cell .top {
@@ -709,7 +709,7 @@ i.icon.icon-time {
     background: #111;
 }
 .dialog-frame .button.submit {
-    background: var(--yellow-green-gradient);
+    background: var(--seafoam-gradient);
 }
 .dialog.no-submit .button.submit {
     background: #151515 !important;
@@ -737,7 +737,7 @@ i.icon.icon-time {
 }
 .experience .xp .bar .progress,
 #footer-user .info .meta div.bar .progress {
-    background: var(--yellow-greener-gradient) !important;
+    background: var(--cyan-gradient) !important;
 }
 
 .icon.icon-arrow-down-blue,
@@ -754,7 +754,7 @@ i.icon.icon-time {
 #footer-user .buttons .button .count,
 #user-friends .tab-menu button .count,
 .app-right .friends .header i {
-    background: var(--yellow-green-gradient);
+    background: var(--seafoam-gradient);
     border: 1px solid hsla(0,0%,100%,.5);
 }
 #user-menu .item:hover .count,
@@ -762,7 +762,7 @@ i.icon.icon-time {
 #footer-user .buttons .button:hover .count,
 #user-friends .tab-menu button:hover .count,
 .app-right .friends .header:hover i {
-    background: var(--yellow-greener-gradient);
+    background: var(--cyan-gradient);
 }
 /*
  ┌————————————————————————┐
@@ -840,7 +840,7 @@ i.icon.icon-time {
     color: #AAA;
 }
 .dropdown dd .row:hover {
-    background: var(--yellow-green-gradient);
+    background: var(--seafoam-gradient);
 }
 .dropdown dd .row:hover span {
     color: #FFF;
