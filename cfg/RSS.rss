@@ -1,0 +1,43 @@
+{
+        "author": "Pyralix",
+        "colors": {
+        "background": "000000",
+        "chat": {
+            "admin": "",
+            "ambassador": "FF8C00",
+            "host": "228B22",
+            "cohost": "228B22",
+            "manager": "68B354",
+            "bouncer": "68B354",
+            "residentdj": "68B354"
+        },
+            "footer": "8b23a8",
+            "header": "8b23a8"
+        },
+        "css": {
+            "font": [],
+            "import": [],
+            "rule": {}
+        },
+        "images": {
+            "background": "https://pictr.com/images/2017/07/28/a5Fgu.png",
+            "booth": "",
+            "icons": {
+                "admin": "",
+                "ambassador": "https://rawgit.com/Satskhi/EDTRCS/master/images/BA.png",
+                "host": "https://rawgit.com/Satskhi/EDTRCS/master/images/Host-Co-Host.png",
+                "cohost": "https://rawgit.com/Satskhi/EDTRCS/master/images/Host-Co-Host.png",
+                "manager": "https://rawgit.com/Satskhi/EDTRCS/master/images/Manager1.0.png",
+                "bouncer": "https://raw.githubusercontent.com/Satskhi/EDTRCS/master/images/Bouncer1.0.png",
+                "residentdj": "https://rawgit.com/Satskhi/EDTRCS/master/images/RDJ.png"
+            },
+            "playback": ""
+        },
+        "rules": {
+            "allowAutojoin": "true",
+            "allowAutorespond": "true",
+            "allowAutowoot": "true",
+            "allowEmotes": "true",
+            "allowShowingMehs": "true"
+        }
+}
