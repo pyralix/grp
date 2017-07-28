@@ -1,3 +1,7 @@
+@import url("https://cdn.rawgit.com/pyralix/grp/1cea9178/cfg/WAM.css");
+@import url("https://cdn.rawgit.com/pyralix/grp/67645f9d/cfg/Staff.css");
+/*@import url("https://rawgit.com/Satskhi/EDT2K17/master/css/removelinkrcs.css"); Remove Link RCS */
+
 /*
  ┌————————————————————┐
  │     Variables      │
@@ -11,16 +15,33 @@ html {
 }
 
 /* Adding stuff from the json in case it didn't loaded */
+.icon-room {
+    background: none;
+    width: 75px !important;
+}
+.icon-room:before {
+    content: '';
+    display: block;
+    width: 75px; height: 30px;
 
+    background: url('https://cdn.rawgit.com/pyralix/grp/75c9ac02/Images/WFTB-Logo.png') center center / 75px no-repeat;
+}
 #room-name, #room-host {
     left: 89px !important;
 }
 #playback .background img {
     display: none;
 }
+#playback .background {
+    background: url('https://cdn.rawgit.com/pyralix/grp/75c9ac02/Images/WFTB-Playback.png') !important;
+    width: 521px; height: 292px;
+    left: -19px;
+    background-size: cover !important;
+}
 .room-background {
     background-image: url(https://cdn.rawgit.com/pyralix/grp/f6ca011a/Background.png) !important;
 }
+
 #room-name, #room-host, #now-playing-dj, #now-playing-media {
     color: #fff !important;
     font-weight: bold;
