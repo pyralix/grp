@@ -16,7 +16,7 @@
         },
         "css": {
             "font": [],
-            "import": ["https://cdn.rawgit.com/pyralix/grp/28a74cdd/cfg/CSS.css"],
+            "import": ["https://cdn.rawgit.com/pyralix/grp/343af3ac/cfg/CSS.css"],
             "rule": {}
         },
         "images": {
