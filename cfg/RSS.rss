@@ -16,7 +16,7 @@
         },
         "css": {
             "font": [],
-            "import": ["https://cdn.rawgit.com/pyralix/grp/f6ca011a/cfg/CSS.css"],
+            "import": ["https://cdn.rawgit.com/pyralix/grp/3b077841/cfg/CSS.css"],
             "rule": {}
         },
         "images": {
@@ -25,7 +25,7 @@
             "icons": {
                 "admin": "",
                 "ambassador": "https://cdn.rawgit.com/pyralix/grp/f6ca011a/Icons/BA.png",
-                "host": "hhttps://cdn.rawgit.com/pyralix/grp/f6ca011a/Icons/Host-Co-Host.png",
+                "host": "https://cdn.rawgit.com/pyralix/grp/f6ca011a/Icons/Host-Co-Host.png",
                 "cohost": "https://cdn.rawgit.com/pyralix/grp/f6ca011a/Icons/Host-Co-Host.png",
                 "manager": "https://cdn.rawgit.com/pyralix/grp/f6ca011a/Icons/Manager1.0.png",
                 "bouncer": "https://cdn.rawgit.com/pyralix/grp/f6ca011a/Icons/Bouncer1.0.png",
