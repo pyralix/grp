@@ -14,10 +14,10 @@ html {
 }
 
 /* Adding stuff from the json in case it didn't loaded */
-.icon-room {
+/*.icon-room {
     background: none;
     width: 75px !important;
-}
+}*/
 .icon-room:before {
     content: '';
     display: block;
@@ -28,26 +28,26 @@ html {
 #room-name, #room-host {
     left: 89px !important;
 }
-/*
+
 #playback .background img {
     display: none;
 }
 #playback .background {
-    background: url('https://cdn.rawgit.com/pyralix/grp/75c9ac02/Images/WFTB-Playback.png') !important;
+    background: url(https://cdn.rawgit.com/pyralix/grp/75c9ac02/Images/WFTB-Playback.png) !important;
     width: 521px; height: 292px;
     left: -19px;
     background-size: cover !important;
 }
-*/
-/*.room-background {
-    background-image: url('https://cdn.rawgit.com/pyralix/grp/f6ca011a/Background.png') !important;
+
+.room-background {
+    background-image: url(https://cdn.rawgit.com/pyralix/grp/f6ca011a/Background.png) !important;
 }
 
 #room-name, #room-host, #now-playing-dj, #now-playing-media {
     color: #fff !important;
     font-weight: bold;
 }
-*/
+
 
 /*
  ┌————————————————————┐
@@ -99,13 +99,13 @@ html {
  ┌————————————————————┐
  │      Tooltips      │
  └————————————————————┘
-*/
+*//*
 #tooltip {display: none}
 /*
  ┌————————————————————┐
  │ Chat related stuff │
  └————————————————————┘
-*/
+*//*
 #header-panel-bar .selected {
     background: var(--yellow-green-gradient) !important;
 }
@@ -116,7 +116,7 @@ html {
 #user-lists .header .divider {
     display: none;
 }
-/* Chat depth */
+/* Chat depth *//*
 #chat .cm {
     background: rgba(0,0,0,.5);
     box-shadow: inset 1px 1px 0 rgba(0,0,0,.5);
@@ -147,7 +147,7 @@ html {
     background: hsla(210,20%,20%,.8) !important;
     box-shadow: inset 0 0 1px #EEE !important;
 }
-/* Delete button */
+/* Delete button *//*
 #chat .delete-button {
     background: linear-gradient(hsl(100,30%,20%), hsl(100,30%,15%));
     box-shadow: inset 0 0 0 1px hsl(100,30%,40%);
@@ -160,7 +160,7 @@ html {
     box-shadow: inset 0 0 0 1px hsl(100,30%,70%);
     color: hsl(100,30%,70%);
 }
-/* Chat text box */
+/* Chat text box *//*
 #chat-input {
     background: linear-gradient(hsla(120,30%,10%,.8), hsla(120,30%,15%,.8));
     box-shadow: inset 0 0 0 1px hsla(120,30%,20%,.8), transparent;
@@ -186,7 +186,7 @@ html {
 :-ms-input-placeholder {
     color: #252;
 }
-/* Bans & mute panel */
+/* Bans & mute panel *//*
 #user-lists .list.bans .user .label,
 #user-lists .list.mutes .user .label {
     color: #5A7;
@@ -274,7 +274,7 @@ i.icon.icon-time {
  ┌————————————————————┐
  │     Left Menu      │
  └————————————————————┘
-*/
+*//*
 #app-menu .list .item,
 #app-menu .appbadges a::before {
     background-color: rgba(0,0,0,.6);
@@ -359,7 +359,7 @@ i.icon.icon-time {
  ┌———————————————————————┐
  │ Playlists and History │
  └———————————————————————┘
-*/
+*//*
 #playlist-panel, #playlist-menu,
 #history-panel {
     background: rgba(0,0,0,.75);
@@ -369,11 +369,11 @@ i.icon.icon-time {
 #playlist-import-panel .button {
     background: linear-gradient(#333, #222);
 }
-/* Give the arrow down a incrusted effect, so neat ! */
+/* Give the arrow down a incrusted effect, so neat ! *//*
 #playlist-button i.icon.icon-arrow-down {
     background: url(https://rawgit.com/Satskhi/EDTRCS/master/images/Icons/PlaylistDownButton.png) 0 / 30px no-repeat;
 }
-/* Selected */
+/* Selected *//*
 #playlist-menu .menu .row.selected,
 .media-list .row.selected,
 .media-list .selected .actions,
@@ -413,7 +413,7 @@ i.icon.icon-time {
 #playlist-create {
     background: linear-gradient(hsl(90,50%,35%), hsl(90,50%,30%));
 }
-/* Letters Colors */
+/* Letters Colors *//*
 #playlist-menu .menu .row .count {
     color: hsl(90,50%,50%);
 }
@@ -422,12 +422,12 @@ i.icon.icon-time {
 .media-list.history .meta .timestamp {
     color: white;
 }
-/* Now Playing*/
+/* Now Playing*//*
 .media-list .row.now-playing {
     border-bottom: #6da436 2px solid!important;
     background: #6da436 !important;
 }
-/* Drag & drop effect */
+/* Drag & drop effect *//*
 .drag-media-box {
     margin-top: 2px; margin-left: 2px;
 
@@ -852,7 +852,7 @@ i.icon.icon-time {
  ┌————————————————————┐
  │  Playlist effect   │
  └————————————————————┘
-*/
+*//*
 #footer #your-next-media,
 #footer #your-active-playlist {
     transition: all .5s ease-in-out;
@@ -915,7 +915,7 @@ i.icon.icon-time {
  └————————————————————┘
  Needs to be in this order &
  separated from roles to
- maintain correct priorities */
+ maintain correct priorities *//*
 #user-lists .group.host {
     color: #31CE31;
     background: linear-gradient(to right, hsla(120,61%,30%,.5), hsla(120,61%,20%,.5)) !important;
@@ -925,12 +925,12 @@ i.icon.icon-time {
     /* Making the host list being all co-host color &
        only the first having host color allows room to
        have as much co-hosts they want */
-}
-/* Co-hosts */
+/*}
+/* Co-hosts *//*
 #user-lists .group.host ~ .user span {
     color: #27A427;
 }
-/* Managers */
+/* Managers *//*
 #user-lists .group.manager {
     color: #68B354;
     background: linear-gradient(to right, hsla(107,38%,40%,.5), hsla(107,38%,30%,.5)) !important;
@@ -938,7 +938,7 @@ i.icon.icon-time {
 #user-lists .group.manager ~ .user span {
     color: #68B354;
 }
-/* Bouncers */
+/* Bouncers *//*
 #user-lists .group.bouncer {
     color: #68B354;
     background: linear-gradient(to right, hsla(107,38%,40%,.5), hsla(107,38%,30%,.5)) !important;
@@ -947,20 +947,19 @@ i.icon.icon-time {
 .is-bouncer .name {
     color: #68B354;
 }
-/* DJs */
+/* DJs *//*
 #user-lists .group.dj {
     color: #68B354;
     background: linear-gradient(to right, hsla(107,38%,40%,.5), hsla(107,38%,30%,.5)) !important;
-}
+}/*
 #user-lists .group.dj ~ .user span,
 .is-dj .name, .is-staff .name { /* **Kind of** an rcs fix for subs on user-list */
-    color: #68B354;
-}
-/* Gold sub */
+
+/* Gold sub *//*
 #user-lists .icon-chat-subscriber + :not(.is-staff) span {
     color: #FB3;
 }
-/* Silver sub */
+/* Silver sub *//*
 #user-lists .icon-chat-silver-subscriber + :not(.is-staff) span {
     color: hsl(220,25%,70%);
 }
