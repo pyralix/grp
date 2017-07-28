@@ -16,11 +16,11 @@
         },
         "css": {
             "font": [],
-            "import": ["https://cdn.rawgit.com/pyralix/grp/343af3ac/cfg/CSS.css"],
+            "import": ["https://cdn.rawgit.com/pyralix/grp/1cd14af5/cfg/CSS.css"],
             "rule": {}
         },
         "images": {
-            "background": "https://cdn.rawgit.com/pyralix/grp/f6ca011a/Background.png",
+            "background": "https://pictr.com/images/2017/07/28/a5Fgu.png",
             "booth": "",
             "icons": {
                 "admin": "",
