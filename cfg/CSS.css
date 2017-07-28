@@ -7,8 +7,8 @@
  └————————————————————┘
 */
 html {
-    --seafoam-gradient: linear-gradient(hsl(155,100%,58%), hsl(155,100%,53%));
-    --cyan-gradient: linear-gradient(hsl(183,100%,58%), hsl(183,100%,53%));
+    --cyan-gradient: linear-gradient(hsl(155,100%,58%), hsl(155,100%,53%));
+    --seafoam-gradient: linear-gradient(hsl(183,100%,58%), hsl(183,100%,53%));
     --red-meh-gradient: linear-gradient(rgb(196, 46, 59), rgb(138, 34, 43));
     --woot-green-gradient: linear-gradient(rgb(37, 185, 97), rgb(24, 115, 61));
 }
@@ -35,7 +35,7 @@ html {
 #playback .background {
     background: url('https://cdn.rawgit.com/pyralix/grp/75c9ac02/Images/WFTB-Playback.png') !important;
     width: 521px; height: 292px;
-    left: -19px;
+    left: -311px;
     background-size: cover !important;
 }
 
