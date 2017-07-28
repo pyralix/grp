@@ -31,13 +31,13 @@ html {
 
 #playback .background img {
     display: none;
-}/*
+}
 #playback .background {
     background: url('https://cdn.rawgit.com/pyralix/grp/75c9ac02/Images/WFTB-Playback.png') !important;
-    width: 521px; height: 292px;
+    width: 300px; height: 169px;
     left: -311px;
     background-size: cover !important;
-}*/
+}
 
 .room-background {
     background-image: url('https://pictr.com/images/2017/07/28/a5Fgu.png') !important;
