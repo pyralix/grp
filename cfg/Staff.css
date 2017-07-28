@@ -1,0 +1,44 @@
+/* Pyralix */
+#user-lists .list.room .user.role-manager.id-5155940 .name {
+    color: #FF8C00 !important;
+}
+/* Pyralix */
+
+/* Staff */
+.icon-chat-ambassador + span {
+    color: #FF8C00 !important;
+}
+.icon-chat-host + span {
+    color: #228B22 !important;
+}
+.icon-chat-cohost + span {
+    color: #228B22 !important;
+}
+.icon-chat-manager + span {
+    color: #68B354 !important;
+}
+.icon-chat-bouncer + span {
+    color: #68B354 !important;
+}
+.icon-chat-dj + span {
+    color: #68B354 !important;
+}
+.icon-chat-ambassador {
+	background: url("https://cdn.rawgit.com/pyralix/grp/f6ca011a/Icons/BA.png") !important;
+}
+.icon-chat-host {
+	background: url("https://cdn.rawgit.com/pyralix/grp/f6ca011a/Icons/Host-Co-Host.png") !important;
+}
+.icon-chat-cohost {
+	background: url("https://cdn.rawgit.com/pyralix/grp/f6ca011a/Icons/Host-Co-Host.png") !important;
+}
+.icon-chat-manager {
+	background: url("https://cdn.rawgit.com/pyralix/grp/f6ca011a/Icons/Manager1.0.png") !important;
+}
+.icon-chat-bouncer {
+	background: url("https://cdn.rawgit.com/pyralix/grp/f6ca011a/Icons/Bouncer1.0.png") !important;
+}
+.icon-chat-dj {
+	background: url("https://cdn.rawgit.com/pyralix/grp/f6ca011a/Icons/RDJ.png") !important;
+}
+/* Staff */
